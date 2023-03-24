@@ -5,29 +5,46 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Products</title>
 </head>
 
 <body>
 
-
-
-<div id="root">
+  <nav>
+    <div id="nav-logo-section" class="nav-section">
+      <img  href="pages/shipping-prices.html" onclick="route()" class="bpm-logo-white" src="/images/bpm-logo-white.png" alt="BPM Logo White">
+    </div>
   
-  <nav id="main-nav">
+    <div id="nav-cart-section" class="nav-section">
+      <h1>cart</h1>
+    </div>
+  </nav>
+
+<div class="product-grid-container">
+
+<img class="product" src="/images/1 hoodie.png" alt="">
+<img class="product" src="/images/2 hoodie.png" alt="">
+<img class="product" src="/images/3 zip up.png" alt="">
+<img class="product" src="/images/4 sweats.png" alt="">
+<img class="product" src="/images/5 sweats.png" alt="">
+<img class="product" src="/images/6 tee.png" alt="">
+<img class="product" src="/images/7  quart zip.png" alt="">
+
+</div>
+
+  
+
     <div class="corner-directory">
 
-      <a class="directory-items" href="pages/shipping-prices.html" onclick="route()">shipping prices</a>
-      <a class="directory-items" href="pages/sustainability.html" onclick="route()">sustainability</a>
-      <a class="directory-items" href="pages/products.html" onclick="route()">products</a>
-      <a class="directory-items" href="pages/sign-up.html" onclick="route()">sign up</a>
-      <a class="directory-items" href="pages/sizing.html" onclick="route()">sizing</a>
-      <a class="directory-items" href="pages/terms.html" onclick="route()">terms</a>
+      <a class="directory-items" href="shipping-prices.html" onclick="route()">shipping prices</a>
+      <a class="directory-items" href="sustainability.html" onclick="route()">sustainability</a>
+      <a class="directory-items" href="products.html" onclick="route()">products</a>
+      <a class="directory-items" href="sign-up.html" onclick="route()">sign up</a>
+      <a class="directory-items" href="sizing.html" onclick="route()">sizing</a>
+      <a class="directory-items" href="terms.html" onclick="route()">terms</a>
 
       </div>
-</nav>
 
-  </div>
 
 <div class="icon-container">
     
@@ -41,7 +58,7 @@
     </div>
 
 </div>
-    <script></script>
+
     <script type="module" src="/main.js"></script>
 
 </body>
